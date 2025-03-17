@@ -1,3 +1,7 @@
+# %%
+from rich import print
+
+# %%
 # ## Homework
 #
 # You are given a list of dictionaries, where each dictionary represents a student and contains their name and a list of grades. Write a Python function that:
@@ -43,9 +47,3 @@ for student in students:
     student["grades"].sort()
 print(students)
 
-
-# %%
-print(sum(students[0]["grades"]))
-
-
-# %%

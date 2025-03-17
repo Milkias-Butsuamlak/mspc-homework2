@@ -1,4 +1,4 @@
-
+from rich import print
 # -
 
 # ## Exercise
